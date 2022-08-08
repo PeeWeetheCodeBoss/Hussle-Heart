@@ -1,0 +1,39 @@
+ul {
+    margin: 0;
+    overflow: hidden;
+
+
+  }
+
+  li {
+
+   
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: black;
+  }
+
+  .nav_item {
+    float: right; border-left: 1px solid #bbb;
+  }
+  .nav_item:first-child  {
+    float: right; border-left: 0px solid #bbb;
+  }
+  .nav_bar {background-color: red; list-style-type: none; padding:0}
